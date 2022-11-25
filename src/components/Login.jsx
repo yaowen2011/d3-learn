@@ -16,12 +16,13 @@ function Login() {
     try {
       const {data} = await axios.get("https://jsonplaceholder.typicode.com/users/1")
       setUser(data)
+      setLoading(false)
     } catch(e) {
       setError(true)
     } finally {
       // setLoading(false)
     }
-    setLoading(false)
+    // setLoading(false)
   }
   return (
     <div className="container">

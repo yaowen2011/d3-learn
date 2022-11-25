@@ -1,0 +1,10 @@
+.triangle {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  /* background-color: darkblue; */
+  border-top: 6px solid darkblue;
+  border-right:6px solid  transparent;
+  border-bottom:6px solid  transparent;
+  border-left: 6px solid transparent;
+}

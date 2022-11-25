@@ -48,6 +48,7 @@ export default function Column() {
         .attr('x', 0)
         .attr('y', yScale(item.name))
         .attr('fill', 'skyblue')
+        .attr('opacity', 0.75)
       })
       // change label size
       g.selectAll(".tick text").attr('font-size', '2em')
